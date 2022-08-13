@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+}
+/*===================LAYOUT===============*/
+body {
+    background-color: orange;
+    font: 700 1rem 'Open Sans' , sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+
+}
+
+/*==================CONVERSOR DOLLAR-REAL =============*/
+#conversor-money form {
+    display: block;
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
+#conversor-money input.dollar {
+    width: 25%;
+    padding: 0.3rem;
+    border: 2px solid black;
+
+    text-align: center;
+   
+}
+    
+
+#conversor-money input.real {
+    width: 25%;
+    padding: 0.3rem;
+    border: 2px solid black;
+    text-align: center;
+    
+    
+    background-color: white;
+   
+   
+    
+}
+
+
+.display-convert {
+    width: 25%;
+    padding: 0.3rem;
+    border: 2px solid black;
+   
+    text-align: center;
+  
+}   
+
+#conversor-money button.button {
+    padding: 0.3rem;
+    border: 2px solid black;
+
+    background-color: rgb(19, 247, 19);
+    
+}
+
+#conversor-money img {
+    margin-top: 2rem;
+    margin-left: -2.5rem;
+}
+
+#conversor-money .arrow-up {
+    margin-left: 4rem;
+    margin-top: -2.2rem;
+}
+
+#conversor-money .equaly {
+    margin-top: -1rem;
+    margin-left: 2rem
+}
+
+.diviser-1 {
+    border-bottom: 2px solid black;
+}
+
+#conversor-money ul.social-links {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
